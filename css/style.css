@@ -35,8 +35,8 @@ em{font-style:italic;color:var(--teal)}
 .btn-light{background:#fff;color:var(--deep);border-color:#fff}
 .btn-light:hover{background:var(--cream);border-color:var(--cream)}
 
-/* logo recortada da imagem (828x662) */
-.logo-crop{display:block;width:104px;height:66px;background:url(../assets/logo.jpeg) no-repeat;background-size:118px auto;background-position:-7px -28px;mix-blend-mode:multiply}
+.logo{display:block;height:64px;width:auto}
+.footer .logo{height:72px}
 
 /* header */
 .header{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:10px clamp(20px,4vw,56px);transition:.4s var(--ease)}
@@ -155,6 +155,7 @@ em{font-style:italic;color:var(--teal)}
   .grid2,.hero,.team,.steps,.gallery{grid-template-columns:1fr}
   .info{grid-template-columns:1fr 1fr}
   .burger{display:block}
+  .logo{height:54px}
   .nav{position:fixed;inset:0;background:var(--cream);flex-direction:column;justify-content:center;gap:26px;font-size:1.4rem;font-family:var(--serif);opacity:0;pointer-events:none;transition:.4s}
   .nav.open{opacity:1;pointer-events:auto}
   .burger{z-index:2}
